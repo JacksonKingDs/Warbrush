@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1280689574420932}
+  m_IsPrefabParent: 1
+--- !u!1 &1280689574420932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4144558656533112}
+  - component: {fileID: 114614787988205430}
+  m_Layer: 0
+  m_Name: '#SfxManager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4144558656533112
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280689574420932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.765974, y: 10.644838, z: 8.142734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114614787988205430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280689574420932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32032631838a0f428624e8cdcc8ebe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx_shoot1: {fileID: 1516909482684148, guid: a85d8c6dcfefa6649a1c95fb27d7989d, type: 2}
+  sfx_shoot2: {fileID: 1145944980574396, guid: a9325aa10e4c3d64f99a9fa3867a1167, type: 2}
+  sfx_shoot3: {fileID: 1751261920238870, guid: 6efbcd5162207a648af8f8e2b26366f3, type: 2}
+  sfx_shoot4: {fileID: 1379604320810326, guid: 301b81fef001ec848b180254bcba756e, type: 2}
+  sfx_shoot5: {fileID: 1608630016790326, guid: cdd96bd91d7c1c747bc393a238642e53, type: 2}
+  sfx_explode1: {fileID: 1983578239531914, guid: d48d85178daaf254aaade8c1f6b1a394,
+    type: 2}
+  sfx_explode2: {fileID: 1983578239531914, guid: 7e490d2eff1f6c842aebbc375e55e0aa,
+    type: 2}
+  sfx_explode3: {fileID: 1983578239531914, guid: de55250aeb2bced46ae80faccf396dd0,
+    type: 2}
+  sfx_explode4: {fileID: 1983578239531914, guid: 6413085b9b854074593fb7e9fb5169f8,
+    type: 2}
+  sfx_explode5: {fileID: 1983578239531914, guid: b17de0da2a1a168499ce4bac67696fa6,
+    type: 2}
+  sfx_hit1: {fileID: 1706314143843372, guid: 860646c9d8e621d49847e44d3dee7182, type: 2}
+  sfx_hit2: {fileID: 1075552137036992, guid: 56759eafec9266547bafd0fe32c4721e, type: 2}
+  sfx_hit3: {fileID: 1012577018730554, guid: df9b8c0dbd72e734bb04238a26ee9446, type: 2}
+  sfx_hit4: {fileID: 1385802076068306, guid: df9112318f693504287b1ca202804a68, type: 2}
+  sfx_hit5: {fileID: 1079527548969740, guid: 70d1be8c78ab24c449c17e194b501ce4, type: 2}
+  sfx_win1: {fileID: 1120868816493212, guid: 4a10e0b7fb0808c45b2e747122a7c704, type: 2}
+  sfx_win2: {fileID: 1580003773594192, guid: 965fae701edc74044a5cb267ec00b8b1, type: 2}
+  sfx_win3: {fileID: 1120269450867524, guid: 3618194bcae1b70429fc2cb66518ed78, type: 2}
+  sfx_ui_click_soft: {fileID: 1017568630815180, guid: 8e660047101441147a02cb4c038d6a7a,
+    type: 2}
+  sfx_ui_click_verysoft: {fileID: 1261519438299942, guid: 8b737f6ac1aafe545b7e1d363ff040c6,
+    type: 2}
+  sfx_ui_confirm: {fileID: 1584391056616634, guid: acfce9ab4ed8ccd48930aab0167c498f,
+    type: 2}
+  sfx_ui_cancel: {fileID: 1780392250015988, guid: 46ea127ce8ce3f542b9136c8b662c522,
+    type: 2}
+  sfx_ui_pause: {fileID: 1780392250015988, guid: 15d51d06cdb7bb34894378ae598bc51f,
+    type: 2}

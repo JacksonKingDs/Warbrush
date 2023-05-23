@@ -1,0 +1,5 @@
+- Use the static helper class UIFadeUtil to do fading. e.g. UIFadeUtil.Canvas_FadeToTransparent(cvsGrp, fadeInSpeed)
+- There is a demo prefab for you to use. 
+
+- Don't forget to add the scenes in BuildSettings
+

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1705280860246942}
+  m_IsPrefabParent: 1
+--- !u!1 &1705280860246942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4359681611351044}
+  - component: {fileID: 114987058410292478}
+  m_Layer: 0
+  m_Name: '#Ref Manager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4359681611351044
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1705280860246942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4712283, y: 0.45034096, z: -7.876373}
+  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114987058410292478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1705280860246942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3684a41c8769e4c9864f540f4d0815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rifleTank_sprite: {fileID: 21300000, guid: dd65a514e34e41147a352af61c52633b, type: 3}
+  shotgunTank_sprite: {fileID: 21300000, guid: 332f58c047d37a24cb8988246ef20c49, type: 3}
+  grenadeTank_sprite: {fileID: 21300000, guid: 09c7bac0d2e0d8f458ae8922a9dd2104, type: 3}
+  bouncerTank_sprite: {fileID: 21300000, guid: 99bc67c4547086a4db142efde513c2b6, type: 3}
+  lancerTank_sprite: {fileID: 21300000, guid: c0ab81c743e29c14b8a56e9ddc5131fb, type: 3}
+  muzzleFlash_Bow: {fileID: 1912981815913144, guid: f1879d33c9a2b944b89e1c7be41dd05e,
+    type: 2}
+  muzzleFlash_BowDouble: {fileID: 1016197188074236, guid: 172592f36eac63c4093984300839dbce,
+    type: 2}
+  muzzleFlash_Behind: {fileID: 1862695659856048, guid: ce41c5f803b0b5c418ec4892cb94d828,
+    type: 2}
+  Pfx_AttackCharge: {fileID: 1766885748292728, guid: ae0ca775082aae5499758878730c0682,
+    type: 2}
+  Pfx_HitAura: {fileID: 1328714153039562, guid: 0e86e2c6645331f44aaed51e0b2e1c61,
+    type: 2}
+  Pfx_HitSparkA: {fileID: 1887361413941060, guid: 40b5bc5185d455944a5c1b45d67c8042,
+    type: 2}
+  Pfx_HitSparkB_BlackVersion: {fileID: 1965969429401246, guid: e6b194fe8f12b9f4ea0ef415175f6e25,
+    type: 2}
+  Pfx_HitSparkB_Shorter: {fileID: 1965969429401246, guid: 529ecb7842a50b643a677a3ef9f3717b,
+    type: 2}
+  Pfx_SpawnGlitter: {fileID: 1278990941751196, guid: 750e496743adaff418ab74d9745fdcc5,
+    type: 2}
+  Pfx_LeftRightExplode: {fileID: 1051498461219634, guid: cba06b93bf6ddb947bc09c8050f135f4,
+    type: 2}
+  Pfx_BoxExplode: {fileID: 1328714153039562, guid: 0e86e2c6645331f44aaed51e0b2e1c61,
+    type: 2}
+  Pfx_Box2Explode: {fileID: 1480401351209684, guid: fe37924e80e627d4aaa6ba4355b27f86,
+    type: 2}
+  Pfx_EnemyExplode: {fileID: 1198836690472664, guid: bcf183f0695a42d46b1c10c705d005be,
+    type: 2}
+  Pfx_WalkDust: {fileID: 1731398310550310, guid: b6b1f777575339d439c7a000c7469bf8,
+    type: 2}
+  Pfx_CrescentExplode: {fileID: 1272048398246348, guid: aeec53b848ba4bc478e1f19ba84fa09e,
+    type: 2}
+  pf_oceanLine: {fileID: 1292018843707042, guid: 6d9bec3355eaf7645a884b94fe126288,
+    type: 2}
+  pf_oceanRipple: {fileID: 0}
+  pf_RainStroke: {fileID: 1658804084281112, guid: 60dc55450ac72124ba06b5022d96a68e,
+    type: 2}
+  pf_RainSplatter: {fileID: 1385602438404748, guid: f502077009285994b82a4a77eabd8924,
+    type: 2}
+  pf_desertSand: {fileID: 1292018843707042, guid: 810f773cc3b152943bdb516432de1ec7,
+    type: 2}
+  pf_spaceDust: {fileID: 1292018843707042, guid: 5848e593779571b47b67daf65de03ebe,
+    type: 2}
+  Pf_Bullet_Rifle: {fileID: 1237098733071852, guid: 5731a2bd403168647806254dcea6dae0,
+    type: 2}
+  Pf_Bullet_Shotgun: {fileID: 1237098733071852, guid: 2d81940b2cb3b3f4e9130d1bf36f825e,
+    type: 2}
+  Pf_Bullet_Bounce: {fileID: 1237098733071852, guid: 6845fd656ee9d304abdd31b83903a4f3,
+    type: 2}
+  Pf_Bullet_Grenade: {fileID: 1237098733071852, guid: 1531f41a6b1aea6408f5c457d7140534,
+    type: 2}
+  Pf_Bullet_Lancer: {fileID: 1237098733071852, guid: 814a55c6bf3f2f246909d7622d118360,
+    type: 2}
+  Pf_LancerMeleeCollider: {fileID: 1237098733071852, guid: 814a55c6bf3f2f246909d7622d118360,
+    type: 2}
+  Pf_GrenadeExplode: {fileID: 1265081080041194, guid: 4bab62be746ca4a44bae1e2f21422eb8,
+    type: 2}
+  Pf_BulletTiny: {fileID: 1237098733071852, guid: cb744924a7b06be4291e12bd69b3521c,
+    type: 2}
+  Pf_BulletTinyDouble: {fileID: 1237098733071852, guid: 33d99dc3ed2357f439423294a9d30ef8,
+    type: 2}
+  Pf_UltiRifle: {fileID: 1237098733071852, guid: 5731a2bd403168647806254dcea6dae0,
+    type: 2}
+  Pf_UltiShotgun: {fileID: 1237098733071852, guid: 5731a2bd403168647806254dcea6dae0,
+    type: 2}
+  Pf_UltiBouncer: {fileID: 1237098733071852, guid: 5731a2bd403168647806254dcea6dae0,
+    type: 2}
+  Pf_UltiGrenade: {fileID: 1237098733071852, guid: 5731a2bd403168647806254dcea6dae0,
+    type: 2}
+  Pf_UltiLancer: {fileID: 1237098733071852, guid: 5731a2bd403168647806254dcea6dae0,
+    type: 2}
+  dead_Tanks:
+  - {fileID: 1377463366223882, guid: 88887b7b1a2a6cb40a68e41a1c716346, type: 2}
+  - {fileID: 1293189410564702, guid: e242e6575f16c254ea487cf8863a3740, type: 2}
+  - {fileID: 1249618168283970, guid: a6594cbe6c664344bba2383de644ba73, type: 2}
+  - {fileID: 1670651396499352, guid: fcb8126e667384346806de7420d49f92, type: 2}
+  - {fileID: 1327164331133714, guid: 3a49001d0911a854aa23ac3a45b2c856, type: 2}
+  pf_tankTaunter: {fileID: 1858338347783846, guid: 269ff64c94ac64e4a8c31f368bc6605c,
+    type: 2}
